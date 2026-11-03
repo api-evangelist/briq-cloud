@@ -1,4 +1,4 @@
-# briq-cloud
+# briq
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-briq-cloud is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://briq.cloud/
+briq provides coding agents with real databases, sandboxed environments, and full‑stack applications accessible via a single MCP call. Hosted in the EU, the platform bills by the second, offers a capped budget, and emphasizes security and isolation for AI‑driven workloads. It enables developers to prototype, test, and run code in production‑like settings without managing infrastructure, targeting AI, automation, and low‑latency use cases.
+
+**Areas:** AI · Cloud · Sandbox · Database · Platform · Company
+
+## briq on APIs.io
+
+Everything profiled for briq is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/briq-cloud/](https://apis.io/providers/briq-cloud/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [briq API](https://apis.io/apis/briq-cloud/briq-api/) — REST API for briq platform
+- [briq API V1 API](https://apis.io/apis/briq-cloud/briq-api-v1-api/) — Services and sandboxes for AI agents.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Briq](https://apis.io/schemas/briq-cloud/briq-cloud-briq/)
+- [KeyPolicy](https://apis.io/schemas/briq-cloud/briq-cloud-key-policy/)
+- [RunBody](https://apis.io/schemas/briq-cloud/briq-cloud-run-body/)
+- [StackForkBody](https://apis.io/schemas/briq-cloud/briq-cloud-stack-fork-body/)
+- [StackUpBody](https://apis.io/schemas/briq-cloud/briq-cloud-stack-up-body/)
+- [StackUpResult](https://apis.io/schemas/briq-cloud/briq-cloud-stack-up-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Briq Cloud Context](https://apis.io/jsonld/briq-cloud/briq-cloud-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [briq API Rules](https://apis.io/rules/briq-cloud/briq-cloud-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Briq Cloud Authentication](https://apis.io/security/briq-cloud/briq-cloud-authentication/)
+- [Briq Cloud Domain Security](https://apis.io/security/briq-cloud/briq-cloud-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Briq Cloud Plans Pricing](https://apis.io/plans/briq-cloud/briq-cloud-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://briq.cloud/)
+- [Documentation](https://briq.cloud/docs)
+- [Getting started](https://briq.cloud/docs/getting-started)
+- [API reference](https://docs.n8n.io/connect/n8n-api)
+- [Pricing](https://briq.cloud/#pricing)
+- [Sign up](https://briq.cloud/sign-up)
+- [Changelog](https://briq.cloud/blog/category/changelog)
+- [Blog](https://briq.cloud/blog)
+- [Terms of service](https://briq.cloud/legal/terms)
+- [Privacy policy](https://briq.cloud/legal/privacy)
+- [GitHub](https://github.com/briq-cloud)
+
+## API Evangelist rating
+
+**Kin Score 58.7** — strong · rubric 0.25.0 · scored 2026-11-03
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 73.2 |
+
+**Agent readiness 22.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/briq-cloud/](https://apis.io/providers/briq-cloud/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for briq: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/briq-cloud/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
